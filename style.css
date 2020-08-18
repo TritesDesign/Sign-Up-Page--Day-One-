@@ -1,0 +1,66 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+html {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body img{
+    opacity: 0.5;
+    width: 100%;
+    position: relative;
+    top:0;
+    left:0;
+}
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+/* Container */
+.container {
+    position: absolute;
+    top: 15px;
+    left: 28%;
+    margin: 1rem 5rem 1rem 5rem;
+    border-radius: 10px;
+    border: solid 1px rgba(198, 219, 219, 0.9);;
+    padding-top: 2rem;
+    background-color: rgba(214,239,239, 0.9);
+    height: 550px;
+    width: 450px;
+}
+.container form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container form .form-item {
+    width: 70%;
+    height: 40px;
+    border: solid 1px grey;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.container> form> div#agreements> p {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.container> form> button {
+    padding: 10px;
+    width: 300px;
+    border: solid 1px grey;
+    background-color: rgba(198, 238, 238, 0.9);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
